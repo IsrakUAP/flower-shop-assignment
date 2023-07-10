@@ -239,3 +239,32 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+.sign-up-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 1400px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin: auto;
+    background-image: url('../Flower Asset/bg_photo.jpg');
+    margin-bottom: 100px;
+}
+
+.sign-up-container h2 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.sign-up-container .info{
+    width: 300px;
+    height: 65px;
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.sign-up-container label{
+    margin-right: 20px;
+}
