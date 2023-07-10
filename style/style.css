@@ -48,6 +48,7 @@
 .feature-header {
     text-align: center;
     padding: 20px;
+    margin-top: 100px;
 }
 
 .feature-header h3 {
@@ -59,7 +60,7 @@
 }
 
 .feature-header p {
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 .featured-flowers {
@@ -102,8 +103,7 @@
     justify-content: center;
     margin: auto;
     padding-bottom: 20px;
-    width: 70%;
-    gap: 11px;
+    gap: 27px;
     text-align: center;
 }
 
@@ -116,4 +116,25 @@
     text-decoration-line: underline;
     margin-left: 100px;
 
+}
+
+.support-container {
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    border-radius: 8px;
+    align-items: center;
+    width: 1370px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.support-container p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
 }
