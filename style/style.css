@@ -204,3 +204,38 @@
     justify-content: center;
     gap: 10px;
 }
+
+.deals-container {
+    padding-top: 100px;
+    text-align: center;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 249px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.deals-container form #email {
+    width: 700px;
+    height: 54px;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+.deals-container h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.deals-container p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
