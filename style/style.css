@@ -1,24 +1,28 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
-.header-container{
+
+.header-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 30px;
     background-color: rgba(229, 84, 115, 0.10);
 }
-.head-details{
+
+.head-details {
     width: 50%;
 }
-.header-flower-image{
+
+.header-flower-image {
     height: 800px;
     width: 650px;
     display: block;
 }
-.btn{
+
+.btn {
     padding: 20px 40px;
     border-radius: 8px;
     background-color: #E55473;
@@ -26,15 +30,68 @@
     border: 0px;
     margin-top: 30px;
 }
-.header-title{
+
+.header-title {
     margin-bottom: 30px;
     font-size: 80px;
-    font-weight:100px;
+    font-weight: 100px;
     color: #272727;
     font-weight: 600;
 }
-.header-text{
+
+.header-text {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+}
+
+.feature-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-header h3 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 20px;
+}
+
+.feature-header p {
+    margin-bottom: 20px;
+}
+
+.featured-flowers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.flower-tree {
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-tree img {
+    width: 300px;
+    height: 420px;
+    padding-top: 100px;
+    display: block;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+.featured-flowers #flower-one {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.featured-flowers #flower-two {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.featured-flowers #flower-three {
+    background-color: rgba(71, 125, 17, 0.15);
 }
